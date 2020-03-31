@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro Pokemón</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro Pokemón</h1>
+    </header>
+
+<main>
+    <sectio id="campo-numerico">
+        <header>
+            <h2> Número do Pokedex no Pokedex Nacional </h2>
+        </header>
+        <input type="number">
+    </section>
+
+    <section id="entrada-texto">
+        <header>
+            <h2>Nome do Pokemón</h2>
+        </header>
+        
+        <label for="nome">Nome</label>
+        <input id="campo-nome" type="text" name="nome" value="">
+
+        
+        <fieldset>
+            <legend> Tipos 1 </legend>
+            <ul>
+                <li>
+                    <input type="checkbox" name="Água" id="Água" value="Água" checked>
+                    <label for="Água">Água</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="Fogo" id="Fogo" value="Fogo">
+                    <label for="Fogo">Fogo</label>
+                </li>
+
+                <li>
+                    <input type="checkbox" name="Planta" id="Planta" value="Planta">
+                    <label for="Planta">Planta</label>
+                </li>
+                
+            </ul>
+        </fieldset>
+
+        <h2> Tipo 2 </h2>
+            <select name="Tipo 2" id="Tipo 2">
+                <option value="Psíquico">Psíquico</option>
+                <option value="eletrico">Elétrico</option>
+                <option value="pedra">Pedra</option>
+                <option value="lutador">Lutador</option>
+                <option value= "inseto">Inseto</option>
+                <option value= "fantasma">Fantasma</option>
+                <option value= "gelo"> Gelo</option>
+                <option value= "aço"> Aço</option>
+                <option value= "voador"> Voador</option>
+                <option value= "noturno">Noturno</option>
+                <option value= "venenoso"> Venenoso</option>
+                <option value= "dragão"> Dragão</option>
+                <option value= "normal"> Normal</option>
+            </select>
+
+            
+
+    <h2>Total</h2>
+        </header>
+        <input type="number" name="total" id="total" >
+    </section>
+
+    <h2>HP</h2>
+        </header>
+        <input type="number" name="hp" id="hp" step="1" min="1" max="255" >
+    </section>
+
+    <h2>Ataque</h2>
+        </header>
+        <input type="number" name="ataque" id="ataque" >
+    </section>
+
+    <h2>Defesa</h2>
+        </header>
+        <input type="number" name="defesa" id="defesa" >
+    </section>
+     
+    <h2>Ataque Especial</h2>
+        </header>
+        <input type="number" name="ataque_especial" id="ataque_especial" >
+    </section>
+    
+    <h2>Defesa Especial</h2>
+</header>
+<input type="number" name="defesa_especial" id="defesa_especial" >
+</section>
+
+<h2>Velocidade</h2>
+</header>
+<input type="number" name="velocidade" id="velociade" >
+</section>
+
+<h2>Altura</h2>
+</header>
+<input type="number" name="altura_m" id="altura_m" >
+</section>
+
+<h2>Peso</h2>
+</header>
+<input type="number" name="peso_kg" id="peso_kg" >
+</section>
+
+<h2>Taxa de Captura</h2>
+</header>
+<input type="number" name="taxa_captura" id="taxa_captura"step="0" min="0" max="255"  >
+</section>
+
+<h2> Geração </h2>
+</header>
+<input type="number" name="geração" id="geração"step="1" min="1" max="7"  >
+</section>
+
+
+<h2> Lendário </h2>
+            <select name="Lendário" id="Lendário">
+                <option value="Sim">Sim</option>
+                <option value="Não">Não</option>
+</select>
+                
+                
+<fieldset>
+<legend>Cor do Pokemón</legend>
+<ul>
+<li>
+    <input type="radio" name="cores" id="vermelho" checked>
+        <label for="vermelho">Vermelho</label>
+            </li>
+                        <li>
+                            <input type="radio" name="cores" id="laranja">
+                            <label for="laranja">Laranja</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="amarelo">
+                            <label for="amarelo">Amarelo</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="verde">
+                            <label for="verde">Verde</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="azul">
+                            <label for="azul">Azul</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="rosa">
+                            <label for="rosa">Rosa</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="roxo">
+                            <label for="roxo">Roxo</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="cores" id="cinza">
+                            <label for="cinza">Cinza</label>
+                        </li>
+
+                        <li>
+                            <input type="radio" name="cores" id="preto">
+                            <label for="preto">Preto</label>
+                        </li>
+                   
+                   
+                   
+                   
+                    </ul>
+                
+                </fieldset>
+    
+</main>
+
+</body>
